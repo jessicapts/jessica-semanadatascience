@@ -148,4 +148,16 @@ SELECT
 -- Qual é o seu RA? Insira o RA no sistema e posteriormente crie
 -- O seu diário de bordo
 -- Por último faça um select
+-- Envie esse script para um novo repositório do Github
+-- Com o nome de Projetofina__tarde
+-- instrutor.romulo@gmail.com
+-- RA 00175964
 
+
+-- Incluindo o RA
+INSERT INTO aluno (ra) VALUES ('00175964');
+-- Criando o diário de bordo da aula de hoje
+INSERT INTO diariobordo (texto, datahora, fk_Aluno_id) 
+VALUES ('inserindo dados do aluno na tabela usando o chat GPT para gerar dados, inserindo dados no diário de bordo, conceito de Join e sua aplicação.', '2024-07-31 17:48', '00175964');
+-- Select
+SELECT * FROM diariobordo;
